@@ -1,3 +1,3 @@
-for alphabet in range(ord('a'), ord('z') + 1):
-    if alphabet != ord('e') and alphabet != ord('q'):
-        print(f"{alphabet:c}", end="")
+for c in range(ord('a'), ord('z') + 1):
+    if c != ord('e') and c != ord('q'):
+        print(f"{c:c}", end="")
