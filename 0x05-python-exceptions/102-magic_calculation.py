@@ -1,3 +1,5 @@
+lines (12 sloc)  289 Bytes
+
 #!/usr/bin/python3
 def magic_calculation(a, b):
     result = 0
@@ -5,9 +7,8 @@ def magic_calculation(a, b):
         try:
             if i > a:
                 raise Exception('Too far')
-            else:
-                result += a ** b / i
-        except:
+            result += a ** b / i
+        except Exception:
             result = b + a
             break
-    return result
+    return 
